@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #D1C8E1;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    background-color: #9d4b86;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+#t2{
+    border-radius: 12px;
+    background-color: #BBA0CA;
+}
+.lowercount{
+    width: 80%;
+    display: flex;
+    justify-content:space-between;
+    
+}
+.counting{
+    display: flex;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.remaining{
+    display: flex;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
